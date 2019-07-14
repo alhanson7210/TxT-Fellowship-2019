@@ -1,0 +1,43 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    Welcome to the {{ title }}!
+  </h1>
+
+  <h2>
+    City name: {{ losRes?.name }}
+  </h2>
+
+  <p>
+    Temperature (Kelvin): {{ losRes?.main.temp }}
+  </p>
+
+  <p>
+    Pressure: {{ losRes?.main.pressure }}
+  </p>
+
+  <p>
+    Humidity: {{ losRes?.main.humidity }}
+  </p>
+
+  <h2>
+      City name: {{ houRes?.name }}
+    </h2>
+  
+    <p>
+      Temperature (Kelvin): {{ houRes?.main.temperature }}
+    </p>
+  
+    <p>
+      Pressure: {{ houRes?.main.pressure }}
+    </p>
+  
+    <p>
+      Humidity: {{ houRes?.main.humidity }}
+    </p>
+</div>
+
+<section>
+  <router-outlet></router-outlet>
+</section>
+

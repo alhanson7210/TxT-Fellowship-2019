@@ -1,0 +1,16 @@
+{
+  "name": "mongodb-challenge",
+  "version": "1.0.0",
+  "description": "Connecting mongodb with node and express as well as using postman for temporary front end testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Hanson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7"
+  }
+}
